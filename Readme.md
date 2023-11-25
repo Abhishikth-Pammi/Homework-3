@@ -1,12 +1,3 @@
-# RandomWalks-Demo
-
-This project will perform random walks on a graph to determine the Valuable nodes as if they were from the original graph, using a similarity ranking measurement used by an attacker to exploit the system. 
-
-## Youtube Demo Link :
--------
-
-
-
 Before you begin, ensure you have met the following requirements:
 
 - **Java:** The project typically requires Java. You can check if it's installed using:
@@ -49,4 +40,5 @@ java -jar target/scala-2.13/HW2_Code-assembly-0.1.0-SNAPSHOT.jar
 
 Run this Spark command
 spark-submit --master local --class Main --jars HW2_Code-assembly-0.1.0-SNAPSHOT.jar --driver-class-path HW2_Code-assembly-0.1.0-SNAPSHOT.jar HW2_Code-assembly-0.1.0-SNAPSHOT.jar "classes/"
+
 
