@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.11" // This needs to be changed to Scala 2.12 
 
 lazy val root = (project in file("."))
   .settings(
-    name := "HW2_Code"
+    name := "HW3_Code"
   )
 
 scalacOptions += "-Ytasty-reader"
@@ -23,6 +23,11 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.3.1" ,
   "org.apache.spark" %% "spark-sql" % "3.3.1",
   "org.apache.spark" %% "spark-graphx" % "3.3.1",
+
+  "com.typesafe.akka" %% "akka-actor" % "2.6.21", // Replace with the latest version compatible with Scala 2.13
+  "com.typesafe.akka" %% "akka-http" % "10.2.10", // Replace with the latest version compatible with Scala 2.13
+  "com.typesafe.akka" %% "akka-stream" % "2.6.21", // Replace with the latest version compatible with Scala 2.13
+  "com.typesafe.akka" %% "akka-http-spray-json" % "10.2.10"
 
 )
 
