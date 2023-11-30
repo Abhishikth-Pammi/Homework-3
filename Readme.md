@@ -4,7 +4,7 @@
 - If the thief node and police node meets, the police wins the game.
 - if either the thief or police has no children nodes, the opposite person wins.
 - **Youtube Link:**
-- blababla
+- https://www.youtube.com/watch?v=Uir1d1AaaiM
 
 Before you begin, ensure you have met the following requirements:
 
