@@ -1,3 +1,11 @@
+## Police-Thief Game
+- **Logic:** The game starts with two nodes which are farthest away in the graph. Those two nodes are assigned as Police and Thief.
+- Both move one step ahead at a time to their children nodes and as the game contiue, if theif get to the node having the valuabe data, the thief wins the game.
+- If the thief node and police node meets, the police wins the game.
+- if either the thief or police has no children nodes, the opposite person wins.
+- **Youtube Link:**
+- blababla
+
 Before you begin, ensure you have met the following requirements:
 
 - **Java:** The project typically requires Java. You can check if it's installed using:
@@ -39,6 +47,6 @@ If you want to run the application after assembling:
 java -jar target/scala-2.13/HW2_Code-assembly-0.1.0-SNAPSHOT.jar
 
 Run this Spark command
-spark-submit --master local --class Main --jars HW2_Code-assembly-0.1.0-SNAPSHOT.jar --driver-class-path HW2_Code-assembly-0.1.0-SNAPSHOT.jar HW2_Code-assembly-0.1.0-SNAPSHOT.jar "classes/"
+spark-submit --master local --class Main --jars HW3_Code-assembly-0.1.0-SNAPSHOT.jar --driver-class-path HW3_Code-assembly-0.1.0-SNAPSHOT.jar HW3_Code-assembly-0.1.0-SNAPSHOT.jar "classes/"
 
 

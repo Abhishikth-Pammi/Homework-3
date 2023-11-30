@@ -17,7 +17,7 @@ case class NGraph(dir: String) {
   val random = new Random()
 
   // Define a common prefix for the filenames
-  val commonPrefix = "filename"
+  val commonPrefix = "fileName"
 
   // Create an array of possible extensions
   val extensions = Array(".ngs", ".ngs.perturbed")
