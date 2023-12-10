@@ -1,0 +1,8 @@
+Student: Abhishikth Pammi
+
+=> No scalatests = -1%
+=> No logging = -1%
+
+Good attempt. You seem to understand what was expected from this assignment and came up with a good solution.
+
+Final Grade: 18%
